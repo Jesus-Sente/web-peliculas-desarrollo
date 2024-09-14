@@ -31,7 +31,7 @@ function loadMovies() {
 
             data.forEach(pelicula => {
                 const card = `
-                    <div class="col-md-4 mb-4">
+                    <div class="col-md-3 mb-4">
                         <div class="card">
                             <img src="${pelicula.Poster}" class="card-img-top" alt="${pelicula.Title}">
                             <div class="card-body">
