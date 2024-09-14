@@ -53,7 +53,6 @@ function loadMovies() {
 // Llama a la función cuando el documento esté listo
 document.addEventListener('DOMContentLoaded', loadMovies);
 
-//<a href="editar.html?id=${pelicula.imdbID}" class="btn btn-primary">Editar</a>
 //******************************************************************************************** */
 
 function GuardarPelicula() {
